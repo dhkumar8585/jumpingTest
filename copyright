@@ -1,0 +1,22 @@
+/**
+     * Copyright © {year} Ambika Information Technology LLC. All rights reserved.
+     *
+     * This API and its associated source code are the exclusive property of Ambika Information Technology LLC.
+     * It is provided solely for authorized use in integrating Ambika's games into approved platforms.
+     * Unauthorized access, use, reproduction, modification, or distribution of this API or its documentation
+     * is strictly prohibited unless explicitly permitted in writing by Ambika Information Technology LLC.
+     *
+     * DISCLAIMER: This API is provided exclusively "as is," without warranty of any kind, express or implied,
+     * including but not limited to warranties of merchantability, fitness for a particular purpose,
+     * or non-infringement. Ambika Information Technology LLC shall not be liable for any claims, damages,
+     * or other liabilities arising from, out of, or in connection with the use or inability to use this API,
+     * including but not limited to errors, data loss, or integration issues.
+     *
+     * By using this API, you agree to comply with the API Terms of Use and any applicable licensing agreements.
+     * Violation of these terms may result in termination of access and legal action.
+     *
+     * For detailed terms and conditions, visit: https://www.ambikatechnology.com/api-terms
+     *
+     * @version v{version}
+     * @date {date}
+     */
