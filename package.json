@@ -1,0 +1,69 @@
+{
+  "name": "dkslottemplate",
+  "version": "0.0.1",
+  "description": "A template of slot machine for H5 game",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "npm run format && webpack serve --mode=development --env development",
+    "build:dev": "npm run clean && webpack --mode=development --env development",
+    "clean": "rimraf dist",
+    "lint": "eslint \"src/**/*.ts\"",
+    "lint:fix": "eslint \"src/**/*.ts\" --fix",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "author": {
+    "name": "DK",
+    "email": "dhkumar8585@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhkumar8585/jumpingTest.git"
+  },
+  "dependencies": {
+    "@pixi/spine-pixi": "^2.1.0",
+    "@pixi/text-bitmap": "^7.4.2",
+    "@pixi/ui": "^2.1.5",
+    "@tweenjs/tween.js": "^25.0.0",
+    "@types/howler": "^2.2.11",
+    "gsap": "^3.12.5",
+    "howler": "^2.2.4",
+    "pixi.js": "^8.5.1"
+  },
+  "devDependencies": {
+    "@assetpack/core": "^1.2.0",
+    "@pixi/devtools": "^2.0.1",
+    "@types/webpack": "^5.28.5",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "@typescript-eslint/parser": "^8.11.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "cross-env": "^7.0.3",
+    "dotenv-webpack": "^8.1.0",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "html-webpack-plugin": "^5.6.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.3.3",
+    "rimraf": "^5.0.5",
+    "terser-webpack-plugin": "^5.3.10",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.ts": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  }
+}

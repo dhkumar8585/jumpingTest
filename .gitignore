@@ -1,0 +1,9 @@
+.vscode
+.cache
+dist
+node_modules
+.idea/vcs.xml
+.idea/
+package-lock.json
+src/.DS_Store
+.env.production
